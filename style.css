@@ -1,0 +1,137 @@
+
+* { /* reset CSS */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%; /*1 rem = 16px*/
+}
+
+body { 
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.8rem;
+}
+
+.header img{
+    height: 7.2rem;
+}
+
+.header nav {
+    display: flex;
+    gap: 3.2rem;
+}
+
+.header nav a{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #FFF2E7;
+}
+
+.header nav a:hover{
+    color: rgba(255, 242, 231, 0.75);
+}
+
+.content {
+    border-top: 0.04rem solid #FFF2E7;
+    margin-bottom: 4.8rem;
+}
+
+.content .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content .main-content .main-content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.content .main-content .main-content-text h1{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 6.4rem;
+    color: #FFF2E7;
+}
+
+.content .main-content .main-content-text h2 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 2.4rem;
+    color: #ECD6C4;
+}
+
+.content .main-content .main-content-text button {
+    background-color: #ECD6C4;
+
+    width: 18rem;
+    height: 6rem;
+    border: none; 
+    border-radius: 2rem;
+    box-shadow: 0.4rem 0.5rem 0.4rem rgba(0, 0, 0, 0.25);
+}
+
+.content .main-content .main-content-text button a{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 2.4rem;
+    color: #2F2325;
+}
+
+.content .main-content .main-content-text button:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+    cursor: pointer;
+}
+
+.content .main-content img {
+   height: 43rem; 
+}
+
+.content .secondary-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+    margin-top: 4.8rem;
+}
+
+.content .secondary-content h3{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 4.8rem;
+    margin-bottom: 1.6rem;
+
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 2.4rem;
+    color: #FFF2E7;
+}
+
+.content .secondary-content p{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #ECD6C4;
+}
+
+.footer {
+    border-top: 0.4px solid #FFF2E7;
+    margin-top: 2.4rem;
+    padding: 3.2rem;
+}
+
+.footer img {
+    height: 4.8rem;
+    display: block;
+    margin: 0 auto;
+}
